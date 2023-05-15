@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Sign-Up Form</h2>
+        </div>
+        <form class="form" id="form">
+            <span>Solutation</span>
+            <input type="radio" id="mr" name="mr." value="mr.">
+            <label for="mr">Mr.</label>
+            <input type="radio" id="ms" name="ms." value="ms.">
+            <label for="ms">Ms.</label>
+            <div class="form-control">
+                <label for="first">First Name</label>
+                <input type="text" placeholder="John" id="fname">
+                <ion-icon name="checkmark-circle-outline" style="color: green;"></ion-icon>
+                <ion-icon name="alert-circle-outline" style="color: red;"></ion-icon>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="last">Last Name</label>
+                <input type="text" placeholder="Doe" id="lname">
+                <ion-icon name="checkmark-circle-outline" style="color: green;"></ion-icon>
+                <ion-icon name="alert-circle-outline" style="color: red;"></ion-icon>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="transmale">Trans-Male</option>
+                    <option value="transfemale">Trans-Female</option>
+                    <option value="gay">Gay</option>
+                    <option value="lesbion">Lesbion</option>
+                </select>
+                <label for="age">Age</label>
+                <input type="number" placeholder="18" id="age">
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" placeholder="john.doe@xyz.com" id="email">
+                <ion-icon name="checkmark-circle-outline" style="color: green;"></ion-icon>
+                <ion-icon name="alert-circle-outline" style="color: red;"></ion-icon>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="mobile">Mobile Number</label>
+                <input type="number" placeholder="0123456789" id="mobile">
+                <ion-icon name="checkmark-circle-outline" style="color: green;"></ion-icon>
+                <ion-icon name="alert-circle-outline" style="color: red;"></ion-icon>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="pw">Password</label>
+                <input type="password" placeholder="password" id="password">
+                <ion-icon name="checkmark-circle-outline" style="color: green;"></ion-icon>
+                <ion-icon name="alert-circle-outline" style="color: red;"></ion-icon>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Re-enter Password</label>
+                <input type="password" placeholder="Re-enter password" id="password2">
+                <ion-icon name="checkmark-circle-outline" style="color: green;"></ion-icon>
+                <ion-icon name="alert-circle-outline" style="color: red;"></ion-icon>
+                <small>Error message</small>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
